@@ -20,10 +20,10 @@ module.exports = {
       [
         {
           id: uuidv4(),
-          username: "jokosu10",
-          email: "akmal@me.com",
+          username: "admin",
+          email: "admin@gmail.com",
           role: "admin",
-          password: bcrypt.hashSync("1234567890", 10),
+          password: bcrypt.hashSync("adm", 10),
           created_at: new Date(),
           updated_at: new Date(),
         },
